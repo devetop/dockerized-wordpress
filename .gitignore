@@ -8,5 +8,3 @@ docker/*.env*
 *.sql
 .htpasswd
 .vscode
-wordpress/*
-wordpress_uploads/*
