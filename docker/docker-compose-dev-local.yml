@@ -13,8 +13,8 @@ services:
     env_file:
       - .env-dev-local
     ports:
-      - 80:80
-      - 57710:57710
+      - 8001:80
+      - 57711:57710
     networks:
       - internal
       - external
