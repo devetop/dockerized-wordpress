@@ -5,6 +5,7 @@ services:
     ports: !reset 
     volumes: !override
       # WordPress
+      - ../wordpress:/var/www/html
       - ../wordpress_uploads:/var/www/html/wp-content/uploads
       - ./app/nginx/sites-available/admin.conf:/etc/nginx/sites-enabled/admin.conf
       # PHP 
